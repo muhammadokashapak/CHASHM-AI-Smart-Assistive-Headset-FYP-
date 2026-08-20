@@ -1,45 +1,85 @@
-<h1 align="center">🧠 CHASHM AI — Smart Assistive Headset</h1>
+﻿<div align="center">
+
+# 👓 CHASHM-AI: Smart Assistive Vision Headset
 
 <p align="center">
-  <b>AI-powered real-time object detection system with voice feedback for assistive vision</b><br>
-  <i>Empowering visually impaired individuals through intelligent perception</i>
+  <strong>AI-Powered Wearable Assistive Headset for the Visually Impaired (Final Year Project)</strong>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/AI-Computer%20Vision-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Model-YOLO-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Backend-FastAPI-black?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Hardware-ESP32--CAM-orange?style=for-the-badge">
+  ![Python](https://img.shields.io/badge/Python-2563EB?style=for-the-badge&logo=github&logoColor=white) ![Computer_Vision](https://img.shields.io/badge/Computer_Vision-2563EB?style=for-the-badge&logo=github&logoColor=white) ![YOLOv8](https://img.shields.io/badge/YOLOv8-2563EB?style=for-the-badge&logo=github&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-2563EB?style=for-the-badge&logo=github&logoColor=white) ![Embedded_AI](https://img.shields.io/badge/Embedded_AI-2563EB?style=for-the-badge&logo=github&logoColor=white) ![Raspberry_Pi](https://img.shields.io/badge/Raspberry_Pi-2563EB?style=for-the-badge&logo=github&logoColor=white) 
 </p>
 
----
+<p align="center">
+  <a href="#-overview">Overview</a> •
+  <a href="#-key-features">Key Features</a> •
+  <a href="#-tech-stack">Tech Stack</a> •
+  <a href="#-getting-started">Getting Started</a> •
+  <a href="#-author--license">Author</a>
+</p>
 
-## 🚀 Overview
-
-**CHASHM AI** is a full-stack intelligent assistive system designed to help visually impaired users perceive their surroundings in real-time.
-
-By combining **embedded hardware**, **deep learning**, and **real-time communication**, the system detects objects from a live camera feed and converts them into **audible feedback**, enabling users to navigate the world more independently.
-
----
-
-## ✨ Key Highlights
-
-- 🎯 **Real-Time Object Detection** using custom-trained YOLO model (.tflite)  
-- 📷 **Live Video Streaming** via ESP32-CAM  
-- ⚡ **High-Performance Backend** with FastAPI + OpenCV  
-- 🌐 **Real-Time UI Updates** using WebSockets  
-- 🔊 **Voice Feedback System** with Text-to-Speech  
-- 🚀 **Optimized Inference** using INT8 quantization for low latency  
+</div>
 
 ---
 
-## 🏗️ System Architecture
+## 📌 Overview
 
-```text
-ESP32-CAM → FastAPI Backend → YOLO Model → Detection Output
-                                      ↓
-                           Text-to-Speech Engine
-                                      ↓
-                              Audio Feedback
-                                      ↓
-                          Real-Time Web Interface
+CHASHM-AI is an intelligent assistive vision headset designed to empower visually impaired individuals with real-time obstacle detection, depth estimation, text-to-speech reading (OCR), and conversational scene description.
+
+---
+
+## ✨ Key Features
+
+- 👁️ **Real-Time Obstacle Detection**: High-speed object detection using custom YOLOv8 quantized models.
+- 🔊 **Spatial Audio Feedback**: Context-aware acoustic warnings indicating object direction and distance.
+- 📖 **Text Reading (OCR)**: Scans documents, signboards, and printed text and reads aloud via offline TTS.
+- 🚶 **Navigational Guidance**: Safe indoor and outdoor navigation with obstacle avoidance algorithms.
+- 🔋 **Edge Embedded Pipeline**: Engineered for low-power operation on Raspberry Pi / Jetson embedded platforms.
+
+---
+
+## 🛠️ Tech Stack & Tools
+
+- **Python**
+- **YOLOv8 / OpenCV**
+- **PyTorch Mobile**
+- **Tesseract OCR**
+- **Raspberry Pi OS**
+- **eSpeak / SAPI TTS**
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+Make sure you have the required runtime installed:
+- **Git** installed on your system
+- **Python 3.9+ / Node.js 18+** (depending on the stack)
+
+### Installation & Run
+
+`ash
+# 1. Clone the repository
+git clone https://github.com/muhammadokashapak/CHASHM-AI-Smart-Assistive-Headset-FYP-.git
+
+# 2. Navigate into the project directory
+cd CHASHM-AI-Smart-Assistive-Headset-FYP-
+`
+
+---
+
+## 👨‍💻 Author & Connect
+
+**Muhammad Okasha**
+- GitHub: [@muhammadokashapak](https://github.com/muhammadokashapak)
+- LinkedIn: [Muhammad Okasha](https://linkedin.com/in/muhammad-okasha)
+
+---
+
+<div align="center">
+
+⭐ **Star this repository if you find it helpful!** ⭐
+
+*© 2026 [Muhammad Okasha](https://github.com/muhammadokashapak). All rights reserved.*
+
+</div>
